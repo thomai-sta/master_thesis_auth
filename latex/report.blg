@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: report.aux
+The style file: alpha.bst
+Database file #1: bibliography.bib
+Warning--can't use both author and editor fields in brillinger
+Warning--empty booktitle in noise_insensitivity
+Warning--empty journal in hosa
+Warning--can't use both author and editor fields in CV
+Warning--empty booktitle in sundb
+You've used 16 entries,
+            2543 wiz_defined-function locations,
+            652 strings with 6948 characters,
+and the built_in function-call counts, 6125 in all, are:
+= -- 588
+> -- 313
+< -- 6
++ -- 110
+- -- 107
+* -- 438
+:= -- 1033
+add.period$ -- 50
+call.type$ -- 16
+change.case$ -- 99
+chr.to.int$ -- 16
+cite$ -- 21
+duplicate$ -- 234
+empty$ -- 443
+format.name$ -- 127
+if$ -- 1232
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 17
+newline$ -- 85
+num.names$ -- 48
+pop$ -- 110
+preamble$ -- 1
+purify$ -- 118
+quote$ -- 0
+skip$ -- 195
+stack$ -- 0
+substring$ -- 289
+swap$ -- 25
+text.length$ -- 6
+text.prefix$ -- 5
+top$ -- 0
+type$ -- 112
+warning$ -- 5
+while$ -- 53
+width$ -- 19
+write$ -- 203
+(There were 5 warnings)

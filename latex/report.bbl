@@ -1,0 +1,95 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{BETVG08}
+
+\bibitem[ADK93]{adelo2}
+Yannis Avrithis, Anastasios Delopoulos, and Stefanos Kollias.
+\newblock An efficient scheme for invariant optical character recognition using
+  triple correlations.
+\newblock Technical report, National Technical University of Athens, 1993.
+
+\bibitem[BETVG08]{surf}
+Herbert Bay, Andreas Ess, Tinne Tuytelaars, and Luc Van~Gool.
+\newblock Surf: Speeded up robust features.
+\newblock {\em Computer Vision and Image Understanding (CVIU)},
+  110(3):346--359, 2008.
+
+\bibitem[Bri01]{brillinger}
+David~R. Brillinger.
+\newblock {\em Time Series:Data Analysis and Theory}.
+\newblock SIAM, 2001.
+
+\bibitem[CL11]{libsvm}
+Chih-Chung Chang and Chih-Jen Lin.
+\newblock {LIBSVM}: A library for support vector machines.
+\newblock {\em ACM Transactions on Intelligent Systems and Technology},
+  2:27:1--27:27, 2011.
+\newblock Software available at \url{http://www.csie.ntu.edu.tw/~cjlin/libsvm}.
+
+\bibitem[DB91]{noise_insensitivity}
+A.~V. Dandawate and Giannakis~G. B.
+\newblock Ergodicity and asymptotic normality for cumulant estimators of
+  nonstationary signal.
+\newblock pages 976--983. 25th Conference on Info Sciences and Systems, March
+  1991.
+
+\bibitem[DTK94]{adelo1}
+Anastasios Delopoulos, Andreas Tirakis, and Stefanos Kollias.
+\newblock Invariant image classification using triple-correlation-based neural
+  networks.
+\newblock {\em IEEE Transactions on Neural Networks}, 5(3):392--408, May 1994.
+
+\bibitem[Hay99]{schaum}
+Monson~H. Hayes.
+\newblock {\em Digital Signal Processing}.
+\newblock The McGraw-Hill Companies, Inc, 1999.
+
+\bibitem[HCL10]{guideSVM}
+Chih-Wei Hsu, Chih-Chung Chang, and Chih-Jen Lin.
+\newblock A practical guide to support vector classification, April 2010.
+
+\bibitem[Low04]{sift}
+David~G. Lowe.
+\newblock Distinctive image features from scale-invariant keypoints.
+\newblock {\em International Journal of Computer Vision}, 60(2):91--110, 2004.
+
+\bibitem[Men91]{hosa}
+Jerry~M. Mendel.
+\newblock Tutorial on higher-order statistics (spectra) in signal processing
+  and system theory:theoretical results and some applications.
+\newblock 79(3):278--305, March 1991.
+
+\bibitem[ROD12]{anatomySIFT}
+Ives Rey~Otero and Mauricio Delbracio.
+\newblock The anatomy of the sift method.
+\newblock {\em Image Processing On Line}, 2012.
+
+\bibitem[SKFP]{fpga}
+Jan Svab, Tomas Krajnik, Jan Faigl, and Libor Preucil.
+\newblock Fpga base speeded up robust features.
+
+\bibitem[SM86]{bow}
+Gerard Salton and Michael~J. McGill.
+\newblock {\em Introduction to Modern Information Retrieval}.
+\newblock McGraw-Hill, Inc., New York, NY, USA, 1986.
+
+\bibitem[Sze10]{CV}
+Richard Szeliski.
+\newblock {\em Computer Vision: Algorithms and Applications}.
+\newblock Springer, 2010.
+\newblock \url{http://szeliski.org/Book/}.
+
+\bibitem[vdSGS10]{vandeSandeTPAMI2010}
+K.~E.~A. van~de Sande, T.~Gevers, and C.~G.~M. Snoek.
+\newblock Evaluating color descriptors for object and scene recognition.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  32(9):1582--1596, 2010.
+\newblock
+  \url{http://www.science.uva.nl/research/publications/2010/vandeSandeTPAMI2010}.
+
+\bibitem[XHE{\etalchar{+}}10]{sundb}
+Jianxiong Xiao, James Hays, Krista~A. Ehinger, Aude Oliva, and Antonio
+  Torralba.
+\newblock Sun database: Large-scale scene recognition from abbey to zoo.
+\newblock 2010.
+
+\end{thebibliography}

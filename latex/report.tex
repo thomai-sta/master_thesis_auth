@@ -1,0 +1,33 @@
+\documentclass[a4paper,12 pt,twoside,openright]{report} 
+\usepackage{fullpage}
+  
+\usepackage{mystyle}
+\usepackage{blindtext}
+\usepackage[section]{placeins}
+
+% =======================================================
+% ==================== PSTRICKS =========================
+
+\usepackage[usenames,dvipsnames]{pstricks}
+\usepackage{epsfig}
+\usepackage{pst-grad} % For gradients
+\usepackage{pst-plot} % For axes
+
+% =======================================================
+% =======================================================
+
+
+\begin{document}
+
+\input{./chapters/firstPages.tex}
+\input{./chapters/intro.tex}
+\input{./chapters/background.tex}
+\input{./chapters/suggestion.tex}
+\input{./chapters/experiments.tex}
+\input{./chapters/conclusions.tex}
+\nocite{adelo1, adelo2, schaum, hosa, brillinger, noise_insensitivity, libsvm, fpga, guideSVM, anatomySIFT, CV, vandeSandeTPAMI2010, sundb, sift, surf}
+\bibliography{bibliography}
+
+
+
+\end{document}

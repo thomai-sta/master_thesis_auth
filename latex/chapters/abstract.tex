@@ -1,0 +1,66 @@
+\begin{abstract}
+Με τον αυξανόμενο ρυθμό παραγωγής δεδομένων και πληροφοριών παγκοσμίως και τη στροφή της ανθρωπότητας προς την αυτοματοποίηση όλο και περισσότερων διαδικασιών στη σύγχρονη ζωή, τις τελευταίες δεκαετίες έχει υπάρξει αυξημένο ενδιαφέρον για τη Μηχανική Μάθηση, ένα τομέα της Υπολογιστικής Νοημοσύνης ο οποίος ασχολείται με την ανάπτυξη μηχανών που μπορούν να μαθαίνουν από την εμπειρία, ώστε να αναλάβουν αυτές το το γιγάντιο έργο της αυτοματοποίησης - ένα έργο που πλέον καμία ανθρώπινη μονάδα δεν μπορεί να φέρει εις πέρας. Η αυτοματοποίηση αυτή αφορά στην πρόβλεψη, εξήγηση ή/και κατανόηση των υποκείμενων δεδομένων. Πολλά προβλήματα μπορούν να περιγραφούν από ένα σύνολο δεδομένων που συλλέχθηκαν κάποια συγκεκριμένη στιγμή και, έτσι, μία πληθώρα μεθόδων Μηχανικής Μάθησης μπορεί να βοηθήσει στην εξαγωγή εύκολα ερμηνεύσιμων μοντέλων, διαφόρων μέσων, όπως είναι οι κανόνες ή τα δένδρα αποφάσεων. Ωστόσο, ειδικά στην περίπτωση της πρόβλεψης, υπάρχουν ειδικές περιστάσεις όπου ο αριθμός των επιλογών μειώνεται και τα Μανθάνοντα Συστήματα Ταξινομητών γίνεται η καλύτερη, αν όχι η μόνη, λύση.
+
+Τα Μανθάνοντα Συστήματα Ταξινομητών (ΜαΣΤ) ανήκουν σε μία κλάση συστημάτων Μηχανικής Μάθησης Βασισμένης στη Γενετική (ΜΜΒΓ), τα οποία είναι σχεδιασμένα ώστε να μπορούν να αντιμετωπίσουν τόσο σειριακά, όσο και ενός-βήματος προβλήματα απόφασης, χρησιμοποιώντας κανόνες ταξινόμησης. Η παρούσα εργασία εστιάζει σε προβλήματα ταξινόμησης χρησιμοποιώντας ΜαΣΤ της μορφής Michigan για να αντιμετωπίσει προβλήματα πολυκατηγορικής φύσης.
+
+Η πολυκατηγορική ταξινόμηση είναι μία διαδικασία Εξόρυξης Δεδομένων όπου κάθε δείγμα ενός συνόλου δεδομένων συσχετίζεται με περισσότερες από μία κατηγορίες που ονομάζονται ετικέτες. Πολυκατηγορικά δεδομένα εμφανίζονται σε αφθονία, σε πραγματικά προβλήματα όπως οι ιατρικές διαγνώσεις, οι κατηγοριοποιήσεις εγγράφων ή η συσχέτιση γονιδίων με βιολογικές λειτουργίες.
+
+Η παρούσα εργασία βασίζει και επεκτείνει την προσέγγιση της πολυκατηγορικής ταξινόμησης του αλγορίθμου της οικογενείας Michigan των ΜαΣΤ, του GMl-ASLCS, ο οποίος με τη σειρά του επεκτείνει το πλαίσιο εποπτευόμενης μάθησης AS-LCS στον πολυκατηγορικό χώρο. Εδώ πρέπει να σημειώσουμε πως, από όσο γνωρίζουμε, η προσέγγιση της πολυκατηγορικής ταξινόμησης με χρήση ΜαΣΤ είναι από τις πρώτες στον αντίστοιχο χώρο. 
+
+Βασισμένοι στις παραπάνω μεθόδους, η προσέγγισή μας κινείται σε τρεις άξονες: i) την εμβάθυνση στις λειτουργίες ενός (πολυκατηγορικού) ΜαΣΤ, μελετώντας και αναλύοντας τις εσωτερικές του διαδικασίες, ii) την προσέγγιση περισσότερο από τη σκοπιά του μηχανικού και λιγότερο από αυτή της Επιστήμης Υπολογιστών, με την έννοια ότι μελετούμε ευρύτερα τη συμπεριφορά διαφορετικών τμημάτων ενός ΜαΣΤ και των μεταβολών που επιφέρουν στη συμπεριφορά του η επιμέρους μεταβολές των παραμέτρων που τη διέπουν και, iii) τη βελτίωση της συνολικής συμπεριφοράς του GMl-ASLCS βάσει των δύο παραπάνω αξόνων, τόσο ως προς τις μετρικές αξιολόγησης που χρησιμοποιούνται, όσο και ως προς τη συμπεριφορά των επιμέρους τμημάτων του.
+
+Εμβαθύνοντας στο Γενετικό Αλγόριθμο που χρησιμοποιούν τα ΜαΣΤ, προτείνουμε την υιοθέτηση ενός νέου τελεστή Διασταύρωσης, τον τελεστή Διασταύρωσης Δύο Τμημάτων, ο οποίος προσιδιάζει στη φύση των πολυκατηγορικών προβλημάτων. Για τη διεύρυνση του αριθμού των δειγμάτων ενός συνόλου δεδομένων που μπορούν να ταξινομήσουν οι κανόνες του ΜαΣΤ με ακρίβεια, προτείνουμε την εισαγωγή ενός νέου τμήματος διαγραφής κανόνων που εφαρμόζεται σε επιμέρους σύνολα κανόνων αντί για το σύνολο του πληθυσμού τους. Αναλύοντας εσωτερικά τη συμπεριφορά του πρώτου GMl-ASLCS, ανακαλύπτουμε τις σοβαρές συνέπειες της διατήρησης κανόνων στον πληθυσμό του ΜαΣΤ οι οποίοι είναι ανίκανοι να ταξινομήσουν δείγματα που τους παρουσιάζονται και προτείνουμε την εφαρμογή μίας μεθοδολογίας που τις εξαλείφει. Παρατηρούμε την αντίρροπη δράση της υπερ-συσσώρευσης μη σαφών αποφάσεων για ετικέτες στο τμήμα απόφασης των κανόνων και υιοθετούμε μία προσέγγιση που μειώνει σε λογικό βαθμό αυτές τις αποφάσεις.
+
+Κάνουμε παρατηρήσεις πάνω στις διαφορετικές λειτουργίες ενός ΜαΣΤ που μπορούν να χρησιμοποιηθούν για την εξαγωγή συμπερασμάτων τόσο όσο αφορά σε πολυκατηγορικά όσο και σε μονοκατηγορικά ΜαΣΤ και προτείνουμε μερικές τροποποιήσεις στον πλήρη ορισμό του GMl-ASLCS με σκοπό την αύξηση των επιδόσεών του, όπως για παράδειγμα την αρχικοποίηση του πληθυσμού χρησιμοποιώντας την ομαδοποίηση των δειγμάτων του πολυκατηγορικού συνόλου με το οποίο εκπαιδεύεται ο GMl-ASLCS.
+
+Μία αρχική αξιολόγηση του ανανεωμένου GMl-ASLCS πραγματοποιείται σε τρία πολυκατηγορικά τεχνητά προβλήματα, σχεδιασμένα ώστε να δοκιμάσουν τις επιδόσεις του σε διαφορετικά περιβάλλοντα, λιγότερο πολύπλοκα από ότι τα πραγματικά σύνολα δεδομένων, στα οποία αξιολογείται ο GMl-ASLCS στη συνέχεια. Όσο αφορά στα πραγματικά σύνολα πολυκατηγορικών δεδομένων, οι επιδόσεις του GMl-ASLCS συγκρίνονται με αυτές του πρωταρχικού GMl-ASLCS και των διαδεδομένων μεθόδων πολυκατηγορικής ταξινόμησης RA$k$EL-J48, Ml$k$NN και BR-J48. Σύμφωνα με τα αποτελέσματα της πειραματικής διαδικασίας, η παρούσα έκδοση του GMl-ASLCS κατατάσσεται πρώτη ανάμεσα τους, επιδεικνύοντας στατιστικά μη σημαντικές διαφορές σε σχέση με τους τρεις παραπάνω αλγορίθμους, αλλά το αντίθετο σε σχέση με τον προκάτοχό του.
+
+Τέλος, εξετάζουμε μεμονωμένα την επίδραση που είχαν οι τέσσερις λειτουργίες που μεταβάλαμε στην αρχική έκδοση του GMl-ASLCS στα τεχνητά πολυκατηγορικά προβλήματα που προαναφέραμε και καταγράφουμε τις επιδόσεις των τροποποιημένων εκδόσεων GMl-ASLCS στα πραγματικά σύνολα δεδομένων που χρησιμοποιήσαμε. Από αυτές, ξεχωρίζουμε μία έκδοση του GMl-ASLCS που χρησιμοποιεί ομαδοποίηση για την αρχικοποίηση του πληθυσμού των κανόνων του και μία που δεν λαμβάνει υπόψη τις μη σαφείς αποφάσεις κανόνων στον υπολογισμό της καταλληλότητάς τους.
+\end{abstract}
+
+
+
+\renewcommand*\abstractname{Abstract}
+{\fontfamily{cmr}\selectfont 
+
+\begin{abstract}
+\centering
+\textbf{Title}
+
+\textbf{Multi-label Classification with Learning Classifier Systems}
+Due to the rising growth of data production worldwide and the turn of mankind to process automation, in the last decades there has been a rising interest in Machine Learning, a branch of Computational Intelligence that deals with the construction and study of machines that can learn from experience, so as to tackle the immense task of automation - a task that can be matched by no man. Said automation takes the form of prediction, explanation and/or comprehension of the underlying data of a target problem. If the problem at hand can be described by a set of data collected at some point in time, there is a plethora of machine learning techniques that can induce easily comprehensible  models that employ various means of classification, like classification rules or decision trees. However, there are a number of occasions that impose restrictions on the number and sort of applicable methods, making Learning Classifier Systems the best (if not only) option.
+
+Learning Classifier Systems (LCS) belong to a class of Genetics-Based Machine Learning (GBML) systems, designed to work for both sequential and single-step problems, using classification rules. The present Diploma Thesis focuses on the classification problem, using the LCS framework to confront multi-label classification.
+
+Multi-label classification is a Data Mining task in which a data-set instance is assigned multiple target labels. Multi-label data are in an abundance in real world problems, such as medical diagnosis, document categorization and gene association with biological functions.
+
+The current Diploma Thesis is based on and extends the multi-label, Michigan LCS, GMl-ASLCS, which in turn extends the supervised learning scheme of AS-LCS on the realm of multiple labels. It is important to note that, to our knowledge, this multi-label approach with LCS is one of the first in the field.
+
+Based on the aforementioned frame of reference, our approach moves on the tracks of: i) gaining insight into the operations of a (multi-label) LCS, by studying and analyzing its internal functions, ii) approaching the problem through an engineering viewpoint rather that a Computer Science one, in the sense of studying the broader behaviour of the different components that a LCS consists of and the changes in its behaviour by modifying its individual running parameters that govern it and, iii) the overall improvement of GMl-ASLCS's behaviour, in the light of the above statements, concerning the evaluation metrics that are employed and the behaviour of its individual components.
+
+By delving deeper into the function of the Genetic Algorithm that is part of a LCS, we propose the adoption of a new crossover operator, the Two Segment Crossover operator, that pertains to the multi-label nature of the classification problem. We introduce a new deletion mechanism that is applied on individual rule sets rather than the population for the purpose of augmenting the number of instances that a LCS can classify accurately. By analyzing the internal behaviour of the initial GMl-ASLCS, we discover the grave repercussions of preserving rules that are unable of classifying even a single instance and we suggest the adoption of a mechanism that eliminates the said repercussions. We also observe the impact of overaccumulation of non-explicit decisions about labels in the rules' consequent and adopt a mechanism for mitigating it.
+
+We study and remark on the different functions that a LCS employes and that can be used to deduce valuable conclusions on multi-label and single-label LCS and we suggest a number of variations in the definition of GMl-ASLCS for increasing its performance. These variations include a population initialization component by means of clustering the instances of the data-set the GMl-ASLCS is being trained with.
+
+A preliminary evaluation of the final version of GMl-ASLCS is performed on three multi-label testbed problems, designed to challenge GMl-ASLCS's perormance, that are of less complexity than the real-world multi-label data-sets, on which the performance of GMl-ASLCS is being evaluated. On these real-world problems, GMl-ASLCS's performance is compared with that of the initial GMl-ASLCS and the three state-of-the-art algorithms used in multi-label classification, RA$k$EL-J48, Ml$k$NN and BR-J48. The results show that GMl-ASLCS is ranked first among them, revealing that there is no statistically significant differences between performance of the current GMl-ASLCS and that of the three state-of-art methods. In contrast, the performance of the current version of GMl-ASLCS exhibits statistically significant difference from the one of the initial GMl-ASLCS.
+
+Finally, we examine the individual impact of the four major changes we induced to the initial GMl-ASLCS framework, on the aforementioned multi-label test-beds and evaluate the performance of the above variations of GMl-ASLCS on the real-world problems we used earlier. Among these variations, we distinguish the one that uses clustering to initialize the LCS's population and one that discards non-explicit decisions of rules about labels, regarding their effect on the fitness calculation method.
+\\
+
+\textbf{Alexandros Philotheou}
+\\
+Intelligent Systems \& Software Engineering Lab,
+\\
+Electrical \& Computer Engineering Department,
+\\
+Aristotle University of Thessaloniki, Greece
+\\
+July 2013
+
+\end{abstract}
+}
+
+\cleardoublepage
+
+\section*{Ευχαριστίες}
+

@@ -1,0 +1,135 @@
+\ProvidesPackage{mystyle}
+
+
+% Προσοχή στο [cm-default], χωρίς αυτό μπορεί να μην λειτουργούν τα
+% μαθηματικά σύμβολα σε ορισμένες εγκαταστάσεις του xelatex!
+%\usepackage[cm-default]{fontspec}
+\usepackage{xltxtra}
+\usepackage{xunicode}
+
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+
+
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+\usetikzlibrary[positioning]
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc}
+
+\usepackage{float}
+
+% Ελληνικό Hyphenation, αφαιρέστε το αν δεν έχετε εγκατεστημένο το xgreek.
+\usepackage{xgreek}
+
+% Γραμματοσειρά
+%\setmainfont[Mapping=tex-text]{DejaVu Sans}
+%\setmainfont[Mapping=tex-text]{GFS Didot}
+% Χρήσιμο πακέτο για εισαγωγή εικόνων jpg/png ή άλλων εγγράφων pdf.
+\usepackage{graphicx}
+
+\usepackage{mathtools}
+\DeclarePairedDelimiter{\abs}{\lvert}{\rvert}
+
+\usepackage{enumerate}
+
+% Macro που δίνει το μέγιστο επιτρεπτό μέγεθος σε μια εικόνα,
+% χωρίς να παραβιάζει τα όρια του LaTeX.
+\makeatletter
+\def\maxwidth{%
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+
+\usepackage{fontspec}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage[chapter]{algorithm}
+\usepackage{algorithmic}
+\renewcommand{\listalgorithmname}{Κατάλογος Αλγορίθμων}
+\floatname{algorithm}{Αλγόριθμος}
+
+%\usepackage{subfig}
+\usepackage{wrapfig}
+%\usepackage[centerlast]{subfigure}
+\usepackage{subcaption}
+\usepackage{pdflscape}
+\usepackage{longtable}
+\usepackage[labelsep=endash, labelfont={bf}, textfont={it}]{caption}
+
+
+
+\usepackage[xetex, colorlinks=false, pdfborder={0 0 0}]{hyperref}
+
+\usepackage{fancyhdr}
+\setlength{\headheight}{15.2pt}
+\pagestyle{fancy}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\headsep}{15pt}
+%\fancyfoot[LO,RE]{Σταθοπούλου Θωμαή}
+%\fancyfoot[CO,CE]{\small{ }}
+%\fancyfoot[RO, LE] {\thepage}
+
+\usepackage{tikz}
+\usepackage{graphicx}
+
+\usepackage{multirow}
+\bibliographystyle{alpha}
+
+\usepackage[all,defaultlines=3]{nowidow}
+
+%\hyphenation{learn-ing neigh-bors proc-ess-ing en-vi-ron-ments} 
+
+
+%\usepackage{kmath}
+%\usepackage{kerkis}
+\setmainfont[Mapping=tex-text]{GFS Didot}
+%\setmainfont[
+%    UprightFont = Kerkis,
+%    ItalicFont = KerkisItalics,
+%    SlantedFont = KerkisItalics,
+%    BoldFont = Kerkisb,
+%    BoldItalicFont = Kerkisbi,
+%    BoldSlantedFont = Kerkisbi,
+%    SmallCapsFont = KerkisSmallCaps]
+%    {Kerkis}
+%\setmainfont[Mapping=tex-text]{GFS Neohellenic}
+%\setmainfont[Mapping=tex-text]{Arial}
+%\setmainfont[Mapping=tex-text]{Linux Libertine O}
+%\setromanfont[Mapping=tex-text]{Linux Libertine O}
+\setsansfont[Mapping=tex-text]{DejaVu Sans}
+\setmonofont[Mapping=tex-text]{DejaVu Sans Mono}
+
+\usepackage[avantgarde]{quotchap}
+\usepackage[calcwidth]{titlesec}
+
+\titleformat{\section}[hang]{\scshape}
+ {\Large\thesection}{12pt}{\Large}[{\titlerule[0.5pt]}]
+
+\titleformat{\part}[display]{\huge}{
+				    \MakeUppercase{\partname} \Huge{\thepart}%
+				    }{80pt}{}
+ 
+
+\lhead[\leftmark]{}
+\rhead[]{\rightmark}
+
+\usepackage{ifthen}
+
+\newcommand{\newevenside}{
+	\ifthenelse{\isodd{\thepage}}{\newpage}{
+	\newpage
+        \phantom{placeholder} % doesn't appear on page
+	\thispagestyle{empty} % if want no header/footer
+	\newpage
+	}
+}
+

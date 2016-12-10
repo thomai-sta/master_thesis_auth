@@ -1,0 +1,2 @@
+img/test1.jpg
+img/sun_1.jpg
